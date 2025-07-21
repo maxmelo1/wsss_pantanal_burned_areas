@@ -1,0 +1,1 @@
+# wsss_pantanal_burned_areas
