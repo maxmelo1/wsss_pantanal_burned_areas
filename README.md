@@ -2,7 +2,7 @@
 
 <h2 style="text-align: center;">LAGIRS 2025</h2>
 
-The oficial repository of PUzzle-CAM fork for Burned Area Mapping.
+The oficial repository of Puzzle-CAM fork for Burned Area Mapping.
 
 
 ## Abstract
@@ -29,3 +29,7 @@ Wildfire mapping in remote and ecologically sensitive regions like the Brazilian
 
 - [ ] Add source code
 - [ ] Add the dataset patches
+
+## Contact
+
+Maximilian Melo: [e-mail](mailto:maximilian.melo@ifms.edu.br).
