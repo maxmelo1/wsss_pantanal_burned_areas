@@ -27,7 +27,7 @@ Wildfire mapping in remote and ecologically sensitive regions like the Brazilian
 
 ## TODO
 
-- [ ] Add source code
+- [x] Add source code 
 - [ ] Add the dataset patches
 
 ## Contact

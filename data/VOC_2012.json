@@ -1,0 +1,1 @@
+{"train": {"burning": 2782}, "validation": {"burning": 595}, "classes": 1, "class_names": ["burning"], "class_dic": {"burning": 0}, "color_dict": {"background": [0, 0, 0], "burning": [128, 0, 0]}}
