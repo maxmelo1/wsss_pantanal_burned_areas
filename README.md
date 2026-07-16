@@ -1,35 +1,39 @@
-# Weakly Supervised Semantic Segmentation Burned Area Mapping
+# An Uncertainty-Aware Deep Learning Approach for Rapid Burned Area Mapping using High-Resolution PlanetScope Multispectral Imagery
 
-<h2 style="text-align: center;">LAGIRS 2025</h2>
+This is the official repository for **Weakly Supervised Semantic Segmentation (WSSS) for Burned Area Mapping in the Brazilian Pantanal**.
 
-The oficial repository of Puzzle-CAM fork for Burned Area Mapping.
+[![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white)](https://pytorch.org/)
+[![Paper](https://img.shields.io/badge/Document-Paper-blue.svg?style=flat)]()
 
+---
 
-## Abstract
+## Overview
 
-Wildfire mapping in remote and ecologically sensitive regions like the Brazilian Pantanal faces challenges due to the high cost of collecting pixel-level annotations required for fully supervised models. In this study, we investigate the use of Weakly Supervised Semantic Segmentation (WSSS) methods—specifically SEAM and Puzzle-CAM—for burned area mapping using multispectral (RGB-NIR) satellite imagery. Both models were adapted to handle four-band data to leverage spectral information relevant for fire detection. Our two-stage pipeline first generates pseudo-labels from image-level annotations and then trains a SegFormer segmentation model on these labels. Experimental results show that Puzzle-CAM, particularly when combined with a stronger ResNeSt-101 backbone, produces high-quality pseudo-labels, leading to segmentation results that closely approach those of fully supervised methods. This approach demonstrates the potential of combining weak supervision and advanced network architectures to reduce labeling costs while enabling scalable wildfire monitoring across the Pantanal. Future work will focus on improving model robustness and extending the methodology to other types of ecological disturbances.
+Wildfire mapping in remote and ecologically sensitive regions like the Brazilian Pantanal faces critical challenges due to the high costs associated with collecting pixel-level annotations required for fully supervised models. 
 
-## Prerequisite
+This project implements an **uncertainty-aware weakly supervised pipeline** to map burned areas using high-resolution, four-band (**RGB-NIR**) PlanetScope satellite imagery:
 
-- Same configurattion and prerequisites of the oficial repository.
-- 1x RTX with at least 12 GB's of VRAM.
+*   **Two-Stage Pipeline:** First, we generate high-quality pseudo-labels from cheap image-level annotations using adapted WSSS methods (**SEAM** and **Puzzle-CAM**). Second, we train a robust **SegFormer** segmentation model on these generated pseudo-labels.
+*   **Spectral Adaptation:** Both CAM-based architectures were adapted to accept 4-channel input data to leverage the Near-Infrared (NIR) band, which is crucial for distinguishing burned areas from background soil and vegetation.
+*   **Key Finding:** Puzzle-CAM combined with a strong **ResNeSt-101** backbone produces outstanding pseudo-labels, yielding segmentation performance that closely approaches fully supervised methods while drastically reducing manual labeling efforts.
 
-## Usage
+---
 
-- Please, follow the instalation and instructions of the original [Puzzle-CAM repository](https://github.com/shjo-april/PuzzleCAM/). 
+## Prerequisites & Hardware
 
+*   **Hardware:** An NVIDIA GPU with **at least 12 GB of VRAM** (e.g., RTX 3060/4070 or better) is highly recommended for training.
+*   **Software Requirements:** This project shares the same environment configurations as the original Puzzle-CAM framework.
+    *   Linux (Ubuntu recommended)
+    *   CUDA-compatible PyTorch environment
 
+---
 
-## Trained weights
+## Getting Started
 
-- All model weights can be downloaded [here](https://drive.google.com/drive/folders/1pMyvV-3H0gLGBTa951rbAFB4FriKCtFZ?usp=sharing).
+### 1. Installation
+Clone this repository and set up the environment based on the core [Puzzle-CAM Repository](https://github.com/shjo-april/PuzzleCAM/):
 
-
-## TODO
-
-- [x] Add source code 
-- [ ] Add the dataset patches
-
-## Contact
-
-Maximilian Melo: [e-mail](mailto:maximilian.melo@ifms.edu.br).
+```bash
+git clone [https://github.com/maxmelo1/wsss_pantanal_burned_areas](https://github.com/maxmelo1/wsss_pantanal_burned_areas)
+cd wsss_pantanal_burned_areas
+# Follow the environment setup instructions from Puzzle-CAM
