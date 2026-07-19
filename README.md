@@ -1,15 +1,15 @@
 # An Uncertainty-Aware Deep Learning Approach for Rapid Burned Area Mapping using High-Resolution PlanetScope Multispectral Imagery
 
-This is the official repository for **Weakly Supervised Semantic Segmentation (WSSS) for Burned Area Mapping in the Brazilian Pantanal**.
+This is the official repository for **Weakly Supervised Semantic Segmentation (WSSS) for Burned Area Mapping in the Brazilian Pantanal**, Ecological Informatics, 2026.
 
 [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white)](https://pytorch.org/)
-[![Paper](https://img.shields.io/badge/Document-Paper-blue.svg?style=flat)]()
+[![Paper](https://img.shields.io/badge/Code-Paper-blue.svg?style=flat)]()
 
 ---
 
 ## Overview
 
-Wildfire mapping in remote and ecologically sensitive regions like the Brazilian Pantanal faces critical challenges due to the high costs associated with collecting pixel-level annotations required for fully supervised models. 
+Rapid burned area mapping in remote and ecologically sensitive regions like the Brazilian Pantanal faces critical challenges due to the high costs associated with collecting pixel-level annotations required for fully supervised models. 
 
 This project implements an **uncertainty-aware weakly supervised pipeline** to map burned areas using high-resolution, four-band (**RGB-NIR**) PlanetScope satellite imagery:
 
