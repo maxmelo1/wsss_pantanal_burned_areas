@@ -216,6 +216,23 @@ python inference_mmseg_shapefile.py \
 
 ---
 
+## Model Weights and Dataset patches
+
+### Model Weights
+
+You can download the model weights from the following link:
+
+- TODO.
+
+### Dataset Patches
+
+- You can download the dataset patches from [this link](https://drive.google.com/file/d/1wp5rPB03lf6UYGoIIJkW8MC3DWgQ5L2q/view?usp=drive_linkdataset).
+
+
+###
+
+---
+
 ## 📜 Citation
 
 If you find this code or dataset useful for your research, please consider citing our paper:
