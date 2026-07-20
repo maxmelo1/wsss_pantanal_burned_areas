@@ -66,9 +66,6 @@ Evaluation of segmentation architectures trained on weakly-supervised pseudo-lab
 ### Performance vs Burned Scar Proportion
 ![IoU vs Burned Scar Area](docs/images/graphic.png)
 
-### Distribution of IoU Metrics across Burned Area Patches
-![IoU Distribution](docs/images/iou_x_burned.png)
-
 ---
 
 ## 📁 Repository Structure
