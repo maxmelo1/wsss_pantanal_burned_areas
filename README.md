@@ -224,7 +224,7 @@ python inference_mmseg_shapefile.py \
 
 You can download the model weights from the following link:
 
-- TODO.
+- [RECAM](https://drive.google.com/file/d/1FlO8ENKfBucpSj446-6iplr4uxYa2pXL/view?usp=drive_link).
 
 ### Dataset Patches
 
