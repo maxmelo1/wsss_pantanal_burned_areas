@@ -152,7 +152,7 @@ pip install -r requirements.txt
 To generate $512 \times 512$ patches from raw PlanetScope satellite rasters and shapefiles:
 
 ```bash
-python dataset_prep/1_generate_dataset_max_value_fixed.py \
+python auxiliar_scripts/dataset_prep/1_generate_dataset_max_value_fixed.py \
     --image_path /path/to/planetscope_scene.tif \
     --shapefile_path /path/to/burned_scar_masks.shp \
     --output_dir ./data_queimadas_rgb
