@@ -240,10 +240,12 @@ You can download the model weights from the following link:
 If you find this code or dataset useful for your research, please consider citing our paper:
 
 ```bibtex
-@article{melo2026uncertainty,
-  title={An Uncertainty-Aware Deep Learning Approach for Rapid Burned Area Mapping using High-Resolution PlanetScope Multispectral Imagery},
-  author={Melo, Max and et al.},
+@article{de2026uncertainty,
+  title={An uncertainty-aware Deep Learning approach for rapid burned area mapping using high-resolution PlanetScope multispectral imagery},
+  author={de Melo, Maximilian Jaderson and Venancio, Thiago Edgar Bauce and de Oliveira, Lucas Yuri Dutra and Nogueira, Keiller and Osco, Lucas Prado and Melgani, Farid and Ramos, Ana Paula Marques and Junior, Jos{\'e} Marcato and Gon{\c{c}}alves, Wesley Nunes},
   journal={Ecological Informatics},
-  year={2026}
+  pages={103939},
+  year={2026},
+  publisher={Elsevier}
 }
 ```
